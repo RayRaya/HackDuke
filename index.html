@@ -1,21 +1,96 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel = "stylesheet" href = "index.css">
+		<link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
+		<meta charset = "UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
 	</head>
-	
-	<header>
-		<nav>
-			<p>Well get this to work yea?</p>
-		</nav>
-	</header>
+	<body>
+		<div class = "content">
+			<header>
+				<img src = "logo.jpg"></img>
+				<nav>
+					<ul>
+						<li><a href = "#">Home</a></li>
+						<li><a href = "#">Tuition</a></li>
+						<li><a href = "#">Academic Requirements</a></li>
+						<li><a href = "#">International Tips</a></li>
+						<li><a href = "#">Contact Us</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+			<main>
+  <div class="container">
+    <canvas id="myChart"></canvas>
+  </div>
 
-	<main>
-	</main>	
-	
-	<aside>
-	</aside>
+  <script>
+    let myChart = document.getElementById('myChart').getContext('2d');
 
-	<footer>
-	</footer>
+    // Global Options
+    Chart.defaults.global.defaultFontFamily = 'Lato';
+    Chart.defaults.global.defaultFontSize = 18;
+    Chart.defaults.global.defaultFontColor = '#777';
+
+    let massPopChart = new Chart(myChart, {
+      type:'bar', 
+      data:{
+        labels:['International', 'Residential'],
+        datasets:[{
+          label:'Population',
+          data:[
+            12333,
+            290182
+          ],
+          backgroundColor:[
+            'rgb(255,0,0)',
+            'rgb(0,0,255)',
+          ],
+          borderWidth:1,
+          borderColor:'#777',
+          hoverBorderWidth:3,
+          hoverBorderColor:'#000'
+        }]
+      },
+      options:{
+        title:{
+          display:true,
+          text:'Amount of Scholarships in the United States',
+          fontSize:25
+        },
+        legend:{
+          display:true,
+          position:'right',
+          labels:{
+            fontColor:'#000'
+          }
+        },
+        layout:{
+          padding:{
+            left:50,
+            right:0,
+            bottom:0,
+            top:0
+          }
+        },
+        tooltips:{
+          enabled:true
+        }
+      }
+    });
+    </script>
+			</main>	
+	
+			<aside>
+			</aside>
+
+			<footer>
+				<br />
+				<hr />
+				<p style = "float:left;">HackDuke 2018</p>
+				<p style = "float:right;">Raymar R., Sarang R., Ashutosh T., Omkhar S, Qasim W. </p>
+			</footer>
+	</body>
 </html>

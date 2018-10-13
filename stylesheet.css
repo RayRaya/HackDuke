@@ -1,0 +1,41 @@
+body{
+	background-color:#fcffe5;
+}
+
+.content{
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color:#800000;
+}
+
+nav a{
+	font-size: 1.2em;
+	display: inline-block;
+	text-decoration:none;
+	list-style-type:none;
+	color:white;
+	float:left;
+	position:relative;
+	text-transform: uppercase;
+}
+
+nav a:hover{
+	color:black;
+}
+
+nav a:active{
+	color:black;
+}
+
+header img{
+	display: inline-block;
+	float:left;
+	height: 25%;
+	width: 10%;
+}
+
+.container{
+	width: 50%;
+	height: 50%;
+	color:black;
+}
