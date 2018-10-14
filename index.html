@@ -35,23 +35,32 @@
     Chart.defaults.global.defaultFontFamily = 'Lato';
     Chart.defaults.global.defaultFontSize = 18;
     Chart.defaults.global.defaultFontColor = '#777';
-		let intNational = 8923;
-		let residentialStud = 10000;
-		let sum = residentialStud+intNational;
+		let intNational = 1100000;
+		let residentialStud = 20020000;
+		let pacificCount = residentialStud*0.10;
+		let hispanicCount = residentialStud*0.13;
+		let afriCount = residentialStud*0.14;
+		let caucaCount = residentialStud*0.63;
     let massPopChart = new Chart(myChart, {
       type:'pie',
       data:{
-        labels:['International', 'Residential','Untaken'],
+        labels:['International','Hispanic/Latino','Caucasian','African American', 'Pacific Islanders'],
         datasets:[{
-          label:'Population',
+          label:'Student Count',
           data:[
             intNational ,
-            residentialStud,
-            10000
+						hispanicCount,
+						caucaCount,
+						afriCount,
+						pacificCount
           ],
           backgroundColor:[
             'rgb(255,0,0)',
             'rgb(0,0,255)',
+						'rgb(0,255,0)',
+						'rgb(255, 122,0)',
+						'rgb(122,255,255)'
+
           ],
           borderWidth:1,
           borderColor:'#777',
@@ -62,7 +71,7 @@
       options:{
         title:{
           display:true,
-          text:'Amount of Scholarships in the United States',
+          text:'Secondary Student Enrollment 2017-18',
           fontSize:25
         },
         legend:{
@@ -111,7 +120,15 @@
 
 			<h1>Works Cited</h1>
 			<ol>
-					<li>J. Zong, J. B. J. Zong, and J. Batalova, “International Students in the United States,” migrationpolicy.org, 05-Jun-2018. [Online]. Available: https://www.migrationpolicy.org/article/international-students-united-states. [Accessed: 14-Oct-2018].</li>
+					<li>J. Zong, J. B. J. Zong, and J. Batalova, “International Students in the United States,”
+						migrationpolicy.org, 05-Jun-2018. [Online].
+						Available: https://www.migrationpolicy.org/article/international-students-united-states.
+						[Accessed: 14-Oct-2018].</li>
+					<li>“U.S. college enrollment statistics 1965-2027,” Statista. [Online].
+						Available: https://www.statista.com/statistics/183995/us-college-enrollment-and-projections-in-public-and-private-institutions/.
+						[Accessed: 14-Oct-2018].</li>
+					<li>“Status and Trends in the Education of Racial and Ethnic Minorities,” National Center for Education Statistics (NCES) Home Page, a part of the U.S. Department of Education. [Online]. Available: https://nces.ed.gov/pubs2010/2010015/indicator6_24.asp. [Accessed: 14-Oct-2018].
+					</li>
 			</ol>
 		</article>
 		<div class = "clear"></div>
