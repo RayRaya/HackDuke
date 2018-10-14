@@ -18,7 +18,7 @@ body{
 
 nav ul li a{
 	color:#D4AF37;
-	text-decoration:none!important;
+	text-decoration:none;
 	float:left;
 }
 
@@ -42,7 +42,6 @@ header img{
 	height: 40%;
 	float:right;
 	color:black;
-	text-align:right;
 }
 
 .clear{
