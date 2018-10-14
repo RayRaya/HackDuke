@@ -8,16 +8,19 @@ body{
 	background-color:white;
 }
 
-nav ul li a{
+.navLink ul li{
 	font-size: 1.2em;
-	display: inline;
-	text-decoration:none;
+	display: inline-block;
 	list-style-type:none;
-	color:#D4AF37;
-	float:left;
-	text-transform: uppercase;
+	margin-right:10px;
+	margin-left:10px;
 }
 
+.navLink ul li a{
+	color:#D4AF37;
+	text-decoration:none
+	float:left;
+}
 nav a:hover{
 	color:black;
 }
@@ -34,10 +37,11 @@ header img{
 }
 
 .container{
-	width: 50%;
-	height: 50%;
+	width: 40%;
+	height: 40%;
 	float:right;
 	color:black;
+	text-align:right;
 }
 
 .clear{
