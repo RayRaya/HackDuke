@@ -12,6 +12,7 @@ body{
 	font-size: 1.2em;
 	display: inline-block;
 	list-style-type:none;
+	margin-top: 3%;
 	margin-right:10px;
 	margin-left:10px;
 }
@@ -31,7 +32,6 @@ nav a:active{
 }
 
 header img{
-	display: inline-block;
 	float:left;
 	height: 25%;
 	width: 10%;
