@@ -1,0 +1,107 @@
+body{
+	background-color:#fcffe5;
+}
+
+.content{
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color:white;
+	align-items: center;
+}
+
+.navLink ul li{
+	font-size: 1.8em;
+	display: inline-block;
+	list-style-type:none;
+	margin-right:10px;
+	margin-left:10px;
+	padding: 15px;
+	margin-top:35px;
+	margin-bottom:45px;
+}
+
+/*Sarang*/
+.navLink2 ul li img{
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 25%;
+	width: 25%;
+}
+
+nav ul li a{
+	color:#D4AF37;
+	text-decoration:none;
+	float:left;
+}
+
+nav a:hover{
+	color:black;
+}
+
+nav a:active{
+	color:black;
+}
+
+.content header img{
+	float:left;
+	height: 25%;
+	width: 10%;
+	display: inline-block;
+}
+
+.container{
+	width: 40%;
+	height: 40%;
+	float:right;
+	color:black;
+}
+
+.clear{
+	clear:both;
+}
+
+section p{
+	line-height: 2;
+}
+
+#Images li{
+		text-decoration: none;
+		padding: 10px;
+		display:inline-block;
+		text-align: center;
+}
+
+#sizeImg{
+		height: 250px;
+		width: 300px;
+}
+
+#Images li img{
+		height: 100px;
+		margin-left:30px;
+		margin-right: 40px;
+}
+
+#academic_notes{
+	float:left;
+}
+
+#headerSpec h1{
+	text-align:center;
+	font-family: Helvetica;
+}
+
+.contactLink a{
+		color:#D4AF37;
+		text-decoration:none;
+}
+
+.contactLink a:hover{
+		color:black;
+}
+
+.contactLink a:active{
+		color:white;
+}
