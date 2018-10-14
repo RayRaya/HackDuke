@@ -8,14 +8,13 @@ body{
 	background-color:white;
 }
 
-nav a{
+nav ul li a{
 	font-size: 1.2em;
-	display: inline-block;
+	display: inline;
 	text-decoration:none;
 	list-style-type:none;
 	color:#D4AF37;
 	float:left;
-	position:relative;
 	text-transform: uppercase;
 }
 
@@ -37,5 +36,10 @@ header img{
 .container{
 	width: 50%;
 	height: 50%;
+	float:right;
 	color:black;
+}
+
+.clear{
+	clear:both;
 }
