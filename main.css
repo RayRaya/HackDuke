@@ -65,3 +65,44 @@ nav a:active{
 section p{
 	line-height: 2;
 }
+
+#Images li{
+		text-decoration: none;
+		padding: 10px;
+		display:inline-block;
+		text-align: center;
+}
+
+#sizeImg{
+		height: 250px;
+		width: 300px;
+}
+
+#Images li img{
+		height: 100px;
+		margin-left: auto;
+		margin-right: auto;
+
+}
+
+#academic_notes{
+	float:left;
+}
+
+#headerSpec h1{
+	text-align:center;
+	font-family: Helvetica;
+}
+
+.contactLink a{
+		color:#D4AF37;
+		text-decoration:none;
+}
+
+.contactLink a:hover{
+		color:white;
+}
+
+.contactLink a:active{
+		color:white;
+}
