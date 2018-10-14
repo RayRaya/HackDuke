@@ -16,11 +16,12 @@ body{
 	margin-left:10px;
 }
 
-.navLink ul li a{
+nav ul li a{
 	color:#D4AF37;
-	text-decoration:none
+	text-decoration:none!important;
 	float:left;
 }
+
 nav a:hover{
 	color:black;
 }
