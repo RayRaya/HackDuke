@@ -15,6 +15,15 @@ body{
 	margin-right:10px;
 	margin-left:10px;
 }
+/*Sarang*/
+.navLink2 ul li img{
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 25%;
+	width: 25%;
+}
 
 nav ul li a{
 	color:#D4AF37;
